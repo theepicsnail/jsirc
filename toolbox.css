@@ -1,0 +1,61 @@
+@font-face { font-family: symbola; src: url('./res/Symbola.ttf'); }
+#toolbox {
+    position:absolute;
+    width:136px;
+    padding:10px;
+    border-radius: 20px;
+    -moz-border-radius:20px;
+    overflow:hidden;
+    background-color:#030303;
+    background-image: -webkit-linear-gradient(bottom, #cccccc, #000 0px,#888 140px);
+    background-image: -moz-linear-gradient   (bottom, #cccccc, #000 0px,#888 140px);
+    background-image: -o-linear-gradient     (bottom, #cccccc, #000 0px,#888 140px);
+    background-image: -ms-linear-gradient    (bottom, #cccccc, #000 0px,#888 140px);
+    background-image: linear-gradient        (bottom, #cccccc, #000 0px,#888 140px);
+}
+
+.group {
+    border:2px solid #aaa;
+    background:#ddd;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    width:132px;
+    text-align:center;
+}
+.group .break {
+    height:1px;
+    display:block;
+}
+
+div .button{ 
+    background: #ccc;
+    cursor: pointer;
+    border-top: solid 2px #eaeaea;
+    border-left: solid 2px #eaeaea;
+    border-bottom: solid 2px #777;
+    border-right: solid 2px #777;
+    border-radius:10px;
+    -moz-border-radius:10px;
+}
+
+div.button.selected {
+    background: #bbb;
+    border-top: solid 2px #777;
+    border-left: solid 2px #777;
+    border-bottom:solid 2px  #eaeaea;
+    border-right: solid 2px #eaeaea;
+}
+
+div.toolMode {
+    font-size:15px;
+}
+
+.iconButtons div{
+    font-size:30px;
+    text-align:center;
+    display: table-cell; 
+    vertical-align:middle;
+    width:40px;
+    height:30px;
+    font-family:symbola;
+}
